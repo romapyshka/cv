@@ -14,8 +14,13 @@ body {
 
 .left {
     width: 30%;
-    padding: 45px;
+    padding: 80px;
     margin-top: 80px;
+}
+
+.right {
+    padding: 80px;
+    width: 70%;
 }
 
 .main_information {
@@ -29,14 +34,14 @@ body {
 
 .main_information > h2 {
     position: relative;
-    top: -60px;
+    top: -80px;
 }
 .my_image {
     width: 200px;
     height: 200px;
     border-radius: 35px;
     position: relative;
-    top: -100px;
+    top: -120px;
 }
 
 .add_information {
@@ -45,11 +50,6 @@ body {
     background-color: rgba(230, 196, 73, 0.8);
     border-radius: 0 0 35px 35px;
     padding: 20px;
-}
-
-.right {
-    padding: 45px;
-    width: 70%;
 }
 
 .summary {
@@ -148,5 +148,6 @@ body {
     display: flex;
     flex-direction: column;
     background-color: rgba(230, 196, 73, 0.8);
-    padding: 0 0 20px 20px;
+    padding: 0 0 40px 20px;
+    border-radius: 0 0 35px 35px;
 }
