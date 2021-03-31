@@ -23,6 +23,7 @@ body {
     margin-top: 80px;
     background-color: white;
     justify-content: center;
+    padding: 20px;
 }
 .my_image {
     width: 200px;
@@ -36,9 +37,21 @@ body {
     flex-direction: column;
     background-color: gray;
     border-radius: 0 0 35px 35px;
+    padding: 20px;
 }
 
 .right {
     padding: 25px;
     width: 70%;
+}
+
+.summary {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    border-radius: 35px 35px 0 0;
+    margin-top: 80px;
+    padding: 20px;
+    align-items: center;
+
 }
