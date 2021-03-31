@@ -5,6 +5,7 @@ body {
     -o-background-size: cover; /* Opera 9.6+ */
     background-size: cover; /* Современные браузеры */
     background-repeat: no-repeat;
+    font-family: Montserrat,sans-serif;
 }
 .main {
     display: flex;
@@ -13,63 +14,71 @@ body {
 
 .left {
     width: 30%;
-    padding: 25px;
+    padding: 45px;
+    margin-top: 80px;
 }
 
 .main_information {
-    display: flex;
-    flex-direction: column;
     border-radius: 35px 35px 0 0;
-    margin-top: 80px;
-    background-color: white;
+    background-color: rgba(255, 255, 255, 0.9);
     justify-content: center;
+    text-align: center;
     padding: 20px;
+    height: 200px;
+}
+
+.main_information > h2 {
+    position: relative;
+    top: -60px;
 }
 .my_image {
     width: 200px;
     height: 200px;
     border-radius: 35px;
-
+    position: relative;
+    top: -100px;
 }
 
 .add_information {
     display: flex;
     flex-direction: column;
-    background-color: gray;
+    background-color: rgba(230, 196, 73, 0.8);
     border-radius: 0 0 35px 35px;
     padding: 20px;
 }
 
 .right {
-    padding: 25px;
+    padding: 45px;
     width: 70%;
 }
 
 .summary {
-    background-color: white;
+    background-color: rgba(255, 255, 255, 0.9);
     display: flex;
     flex-direction: column;
     border-radius: 35px 35px 0 0;
     margin-top: 80px;
     padding: 20px;
     align-items: center;
+}
 
+.summary > p {
+    font-size: 17px;
 }
 
 .skills_head {
-    background-color: grey;
+    background-color: rgba(230, 196, 73, 0.8);
     display: flex;
     flex-direction: column;
-    padding: 20px;
+    padding: 20px 0  0  0;
     align-items: center;
 }
 
 .skills {
-    background-color: grey;
     display: flex;
     flex-direction: row;
-    padding: 20px;
-    align-items: center;
+    padding: 0 0 20px 0;
+    background-color: rgba(230, 196, 73, 0.8);
 }
 
 .skills_left {
@@ -80,4 +89,19 @@ body {
 .skills_right {
     padding: 0 20px 0 20px;
     align-items: center;
+}
+
+.experience_head {
+    background-color: rgba(255, 255, 255, 0.9);
+    display: flex;
+    flex-direction: column;
+    padding: 20px 0  0  0;
+    align-items: center;
+}
+
+.experience {
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 0 0 0 20px;
 }
